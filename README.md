@@ -6,6 +6,10 @@ All Patterns are listed in their respective packages. <br>
 Change the below code in *App.java* to run the Implementation<br>
 `DesignPattern pattern = new DecoratorPattern();`
 
+<br>Patterns Included:
+1. Decorator Pattern
+2. Factory Pattern
+
 <br>
 To execute the project , run the below command
 <br>
