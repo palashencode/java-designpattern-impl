@@ -5,6 +5,7 @@ import java.util.regex.Pattern;
 import com.java.app.builder.BuilderPattern;
 import com.java.app.decorator.DecoratorPattern;
 import com.java.app.factory.FactoryPattern;
+import com.java.app.prototype.PrototypePattern;
 import com.java.app.strategy.StrategyPattern;
 
 /**
@@ -24,7 +25,8 @@ public class App
         // DesignPattern pattern = new DecoratorPattern();
         // DesignPattern pattern = new FactoryPattern();
         // DesignPattern pattern = new StrategyPattern();
-        DesignPattern pattern = new BuilderPattern();
+        // DesignPattern pattern = new BuilderPattern();
+        DesignPattern pattern = new PrototypePattern();
 
         pattern.run();
         
