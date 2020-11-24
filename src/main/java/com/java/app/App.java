@@ -7,6 +7,7 @@ import com.java.app.builder.BuilderPattern;
 import com.java.app.decorator.DecoratorPattern;
 import com.java.app.factory.FactoryPattern;
 import com.java.app.prototype.PrototypePattern;
+import com.java.app.singleton.SingletonPattern;
 import com.java.app.strategy.StrategyPattern;
 
 /**
@@ -28,7 +29,8 @@ public class App
         // DesignPattern pattern = new StrategyPattern();
         // DesignPattern pattern = new BuilderPattern();
         // DesignPattern pattern = new PrototypePattern();
-        DesignPattern pattern = new AbstractFactoryPattern();
+        // DesignPattern pattern = new AbstractFactoryPattern();
+        DesignPattern pattern = new SingletonPattern();
 
         pattern.run();
         
