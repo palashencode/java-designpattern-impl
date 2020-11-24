@@ -12,6 +12,7 @@ Change the below code in *App.java* to run the Implementation<br>
 3. Strategy Pattern
 4. Builder Pattern
 5. Abstract Factory Pattern
+6. Singleton Pattern
 
 <br>
 To execute the project , run the below command
