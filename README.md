@@ -9,6 +9,8 @@ Change the below code in *App.java* to run the Implementation<br>
 <br>Patterns Included:
 1. Decorator Pattern
 2. Factory Pattern
+3. Strategy Pattern
+4. Builder Pattern
 
 <br>
 To execute the project , run the below command
