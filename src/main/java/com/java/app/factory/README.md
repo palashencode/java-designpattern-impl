@@ -16,3 +16,6 @@ Cons:
 How to see the advantage : 
 - want to add a new skin type ? - *extend dialog and add a new button type.* 
 - no client code needs to change.
+
+<br>
+Note - Note that the factory method doesn’t have to create new instances all the time. It can also return existing objects from a cache, an object pool, or another source.

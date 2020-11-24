@@ -2,6 +2,7 @@ package com.java.app;
 
 import java.util.regex.Pattern;
 
+import com.java.app.abstract_factory.AbstractFactoryPattern;
 import com.java.app.builder.BuilderPattern;
 import com.java.app.decorator.DecoratorPattern;
 import com.java.app.factory.FactoryPattern;
@@ -26,7 +27,8 @@ public class App
         // DesignPattern pattern = new FactoryPattern();
         // DesignPattern pattern = new StrategyPattern();
         // DesignPattern pattern = new BuilderPattern();
-        DesignPattern pattern = new PrototypePattern();
+        // DesignPattern pattern = new PrototypePattern();
+        DesignPattern pattern = new AbstractFactoryPattern();
 
         pattern.run();
         
