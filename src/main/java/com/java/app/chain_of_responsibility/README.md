@@ -26,7 +26,7 @@ Goal : It lets you pass requests along a chain of handlers and lets you create c
 - Also I wanted visibility on my completed chain
     - hence added the `public void printChain()` method.
     - I did not like how it was getting repeated in all subclasses
-    - hence i converted the `Handler` to an abstract class and moved the implementation inside it, enriching all clind handlers.
+    - hence i converted the `Handler` to an abstract class and moved the implementation inside it, enriching all child handlers.
     - it allows me to easily print a chain at any point.
 
 **Points of Improvements**
