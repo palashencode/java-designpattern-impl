@@ -5,6 +5,7 @@ import java.util.regex.Pattern;
 import com.java.app.abstract_factory.AbstractFactoryPattern;
 import com.java.app.builder.BuilderPattern;
 import com.java.app.chain_of_responsibility.ChainOfResponsibilityPattern;
+import com.java.app.command.CommandPattern;
 import com.java.app.decorator.DecoratorPattern;
 import com.java.app.factory.FactoryPattern;
 import com.java.app.prototype.PrototypePattern;
@@ -32,7 +33,8 @@ public class App
         // DesignPattern pattern = new PrototypePattern();
         // DesignPattern pattern = new AbstractFactoryPattern();
         // DesignPattern pattern = new SingletonPattern();
-        DesignPattern pattern = new ChainOfResponsibilityPattern();
+        // DesignPattern pattern = new ChainOfResponsibilityPattern();
+        DesignPattern pattern = new CommandPattern();
 
         pattern.run();
         

@@ -14,6 +14,7 @@ Change the below code in *App.java* to run the Implementation<br>
 5. Abstract Factory Pattern
 6. Singleton Pattern
 7. Chain of Responsibility
+8. Command Pattern
 
 <br>
 To execute the project , run the below command
