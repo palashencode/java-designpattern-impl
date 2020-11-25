@@ -9,15 +9,15 @@ Goal : It lets you pass requests along a chain of handlers and lets you create c
 - helps you execute handling functions in different order ( used in request filtering in web-servers )
 - any request that needs to be resolved in chains
 
-**OOP Principles follows :**
+**OOP Principles followed:**
 - Single Responsibility Principle
 - Open/Closed Principle. ( open for extension/closed for modification)
 
-**JDK Use:**
+**JDK Usecases:**
 - `javax.servlet.filter.doFilter()`
 - `javax.util.logging.Logger.log()`
 
-**Points about this Implementation**
+**Notes about this Implementation**
 - It takes inspiration from the Journal Dev example and creates a chain of Cash Dispensers
 - I was not happy with how objects were chained, 
     - they looks clunky. 
