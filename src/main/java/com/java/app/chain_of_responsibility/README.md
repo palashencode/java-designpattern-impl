@@ -18,7 +18,7 @@ Goal : It lets you pass requests along a chain of handlers and lets you create c
 - `javax.util.logging.Logger.log()`
 
 **Points about this Implementation**
-- It takes the Journal Dev example and creates a chain of Cash Dispensers
+- It takes inspiration from the Journal Dev example and creates a chain of Cash Dispensers
 - I was not happy with how objects were chained, 
     - they looks clunky. 
     - I wanted the ability to smmothly chain objects. 
