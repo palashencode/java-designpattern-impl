@@ -16,7 +16,8 @@ Change the below code in *App.java* to run the Implementation<br>
 7. Chain of Responsibility
 8. Command Pattern
 9. Memento
-10.
+10.Observer
+11.Visitor
 
 <br>
 To execute the project , run the below command

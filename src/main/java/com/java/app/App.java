@@ -9,9 +9,11 @@ import com.java.app.command.CommandPattern;
 import com.java.app.decorator.DecoratorPattern;
 import com.java.app.factory.FactoryPattern;
 import com.java.app.memento.MementoPattern;
+import com.java.app.observer.ObserverPattern;
 import com.java.app.prototype.PrototypePattern;
 import com.java.app.singleton.SingletonPattern;
 import com.java.app.strategy.StrategyPattern;
+import com.java.app.visitor.VisitorPattern;
 
 /**
  * Hello world!
@@ -36,7 +38,9 @@ public class App
         // DesignPattern pattern = new SingletonPattern();
         // DesignPattern pattern = new ChainOfResponsibilityPattern();
         // DesignPattern pattern = new CommandPattern();
-        DesignPattern pattern = new MementoPattern();
+        // DesignPattern pattern = new MementoPattern();
+        // DesignPattern pattern = new ObserverPattern();
+        DesignPattern pattern = new VisitorPattern();
 
         pattern.run();
 
