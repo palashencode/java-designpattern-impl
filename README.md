@@ -15,6 +15,8 @@ Change the below code in *App.java* to run the Implementation<br>
 6. Singleton Pattern
 7. Chain of Responsibility
 8. Command Pattern
+9. Memento
+10.
 
 <br>
 To execute the project , run the below command
