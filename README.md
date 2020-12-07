@@ -18,6 +18,8 @@ Change the below code in *App.java* to run the Implementation<br>
 9. Memento
 10.Observer
 11.Visitor
+12.Composite
+13.Mediator
 
 <br>
 To execute the project , run the below command

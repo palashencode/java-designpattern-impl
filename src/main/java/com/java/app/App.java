@@ -6,8 +6,10 @@ import com.java.app.abstract_factory.AbstractFactoryPattern;
 import com.java.app.builder.BuilderPattern;
 import com.java.app.chain_of_responsibility.ChainOfResponsibilityPattern;
 import com.java.app.command.CommandPattern;
+import com.java.app.composite.CompositePattern;
 import com.java.app.decorator.DecoratorPattern;
 import com.java.app.factory.FactoryPattern;
+import com.java.app.mediator.MediatorPattern;
 import com.java.app.memento.MementoPattern;
 import com.java.app.observer.ObserverPattern;
 import com.java.app.prototype.PrototypePattern;
@@ -40,7 +42,9 @@ public class App
         // DesignPattern pattern = new CommandPattern();
         // DesignPattern pattern = new MementoPattern();
         // DesignPattern pattern = new ObserverPattern();
-        DesignPattern pattern = new VisitorPattern();
+        // DesignPattern pattern = new VisitorPattern();
+        // DesignPattern pattern = new CompositePattern();
+        DesignPattern pattern = new MediatorPattern();
 
         pattern.run();
 
