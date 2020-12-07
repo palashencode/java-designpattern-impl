@@ -10,7 +10,7 @@ It lets you save and restore states of an object without revealing the internal 
 - In other cases, it uses an intermediate interface, between the originator and caretaker classes.
 - A stricter version of the previous case which has Originators and Mementos as interfaces interacting with each other.
 
-
+- This example uses `Serialization` to implement the backup and restore functionality.
 
 **References**
 ---
