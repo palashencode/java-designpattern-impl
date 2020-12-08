@@ -22,6 +22,7 @@ Change the below code in *App.java* to run the Implementation<br>
 13. Mediator
 14. Prototype
 15. State
+16. Flyweight
 
 <br>
 To execute the project , run the below command

@@ -9,6 +9,7 @@ import com.java.app.command.CommandPattern;
 import com.java.app.composite.CompositePattern;
 import com.java.app.decorator.DecoratorPattern;
 import com.java.app.factory.FactoryPattern;
+import com.java.app.flyweight.FlyweightPattern;
 import com.java.app.mediator.MediatorPattern;
 import com.java.app.memento.MementoPattern;
 import com.java.app.observer.ObserverPattern;
@@ -46,7 +47,8 @@ public class App
         // DesignPattern pattern = new VisitorPattern();
         // DesignPattern pattern = new CompositePattern();
         // DesignPattern pattern = new MediatorPattern();
-        DesignPattern pattern = new StatePattern();
+        // DesignPattern pattern = new StatePattern();
+        DesignPattern pattern = new FlyweightPattern();
 
         pattern.run();
 
