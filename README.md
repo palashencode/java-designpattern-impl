@@ -20,6 +20,8 @@ Change the below code in *App.java* to run the Implementation<br>
 11. Visitor
 12. Composite
 13. Mediator
+14. Prototype
+15. State
 
 <br>
 To execute the project , run the below command
@@ -27,5 +29,5 @@ To execute the project , run the below command
 
 `mvn compile ; mvn exec:java -Dexec.mainClass="com.java.app.App"`
 
-More resources can be availed at 
+More resources can be availed at :
 1. https://refactoring.guru/design-patterns

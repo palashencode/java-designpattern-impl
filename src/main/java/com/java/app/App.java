@@ -14,6 +14,7 @@ import com.java.app.memento.MementoPattern;
 import com.java.app.observer.ObserverPattern;
 import com.java.app.prototype.PrototypePattern;
 import com.java.app.singleton.SingletonPattern;
+import com.java.app.state.StatePattern;
 import com.java.app.strategy.StrategyPattern;
 import com.java.app.visitor.VisitorPattern;
 
@@ -44,7 +45,8 @@ public class App
         // DesignPattern pattern = new ObserverPattern();
         // DesignPattern pattern = new VisitorPattern();
         // DesignPattern pattern = new CompositePattern();
-        DesignPattern pattern = new MediatorPattern();
+        // DesignPattern pattern = new MediatorPattern();
+        DesignPattern pattern = new StatePattern();
 
         pattern.run();
 
