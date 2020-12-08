@@ -23,6 +23,12 @@ Change the below code in *App.java* to run the Implementation<br>
 14. Prototype
 15. State
 16. Flyweight
+17. Proxy
+18. Bridge
+19. Template Method
+20. Adapter
+21. Facade
+22. Iterator
 
 <br>
 To execute the project , run the below command
